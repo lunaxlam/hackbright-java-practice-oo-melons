@@ -24,7 +24,7 @@ public class Melon {
 
 	public boolean isSellable() {
 
-		if (this.shapeRating > 5 && this.colorRating > 5 & this.field != 3) {
+		if (this.shapeRating > 5 && this.colorRating > 5 && this.field != 3) {
 			return true;
 		}
 
